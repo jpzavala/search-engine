@@ -1,0 +1,12 @@
+__pycache__
+DEV
+index_part1.txt
+index_part2.txt
+index_part3.txt
+index_part4.txt
+inverted_index.txt
+merged_12.txt
+merged_34.txt
+testing.py
+docids.json
+index_of_index.json

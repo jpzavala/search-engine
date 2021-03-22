@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+  <title>UCI search engine</title>
+ </head>
+ <body>
+  <h1>DuckDuckDone</h1>
+  <form action="" method="get">
+    <input type="text" name="user_query">
+    <input type="submit" value="Search">
+    <p>&nbsp&nbspTime: {{timed}} milliseconds.</p>
+</form>
+<div class="results">
+  {% for result in results %}
+  <a href = {{result}}>{{result}}</a>
+  {% endfor %}
+</div>
+
+ </body>
+</html>
