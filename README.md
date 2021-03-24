@@ -1,6 +1,5 @@
 # Dependencies/Files
 1. Install the dependencies listed in requirements.txt
-2. To run the indexer, the DEV folder containing the web pages must be downloaded and placed in this project folder.
 
 # Indexing 
 1. Run main.py
